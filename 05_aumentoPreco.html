@@ -8,9 +8,23 @@
         //- acima de 1500: aumento de 5 %
     
     //Entrada
+    const rr = Number(promot("Informe o preço do produto:"))
 
+    const oo = 20 / rr * 100;
+    const ww = 15 / rr * 100;
+    const ii = 10 / rr * 100;
+    const vv = 5 / rr * 100;
+    const uu = rr + oo;
+    const pp = rr + ww;
+    const aa = rr + ii;
+    const ss = rr + vv;
 
     //Processamento
+    const yy = (rr <= 280) ? alert(`O preço vai ficar ${uu}`);
+    const bb = (rr >280 && rr <=700) ? alert (`O preço vai ficar ${pp}`); 
+    const kk = (rr >280 && rr <700 && rr >1500) ? alert (`O preço vai ficar ${aa}`); 
+    const kk = (rr >280 && rr <700 && rr >1500) ? alert (`O preço vai ficar ${aa}`); 
+
 
     
     //Saída
