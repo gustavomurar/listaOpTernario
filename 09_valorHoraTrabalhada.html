@@ -7,12 +7,17 @@
     // Se o total de horas trabalhadas ultrapassar 60 horas, haverá adicional de 30%.
     // Apresente o salário final recebido pelo funcionário semanalmente e o preço de cada hora trabalhada.
 
-    //Entrada
+    const ee = Number(prompt("Informe a quantidade de horas trabalhadas semanalmente"));
+    const yy = Number(prompt("Informe quanto que recebe por hora trabalhada"));
 
+    const oo = 20 / ee * 100;
+    const ww = 30 / ee * 100;
+    const hh = ee * yy;
+    const uu = (ee * yy) + oo;
+    const pp = (ee * yy) + ww;
 
-    //Processamento
-
-    
-    //Saída
-
+    const zz = ee <= 45 ? `O salário final recebido pelo funcionário semanalmente será ${hh}`
+            : ee >45 && rr <=60  ? `O salário final recebido pelo funcionário semanalmente será ${uu}`
+            : ee >45 && rr >=60 ? `O salário final recebido pelo funcionário semanalmente será ${pp}`
+            :``;
 </script>

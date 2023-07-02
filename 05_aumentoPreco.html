@@ -22,7 +22,7 @@
     //Processamento
     const yy = rr <= 280 ? `O preço vai ficar ${uu}`
             : rr >280 && rr <=700  ? `O preço vai ficar ${pp}`
-            : rr >280 && rr <700 && rr >=1500 ? `O preço vai ficar ${aa}`
-            : rr >280 && rr <700 && rr <1500 && rr > 1500 ? `O preço vai ficar ${ss}`
+            : rr >700 && rr <=1500 ? `O preço vai ficar ${aa}`
+            : rr >1500 && rr >= 1500 ? `O preço vai ficar ${ss}`
             : ``;
 </script>
