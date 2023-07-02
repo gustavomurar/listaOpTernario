@@ -9,12 +9,15 @@
     // Também peça para o usuário informar o valor que recebe de remuneração mensal (salário), proveniente da sua atuação profissional.
     // Verifique se o usuário ganha mais do que recebe e apresente em tela, indicando quanto que sobrou após o pagamento das contas ou quanto que faltou para poder pagar todas as contas previstas.
 
-    //Entrada
+    const qq = Number(prompt("Conta de água"));
+    const ww = Number(prompt("Conta de energia elétrica"));
+    const ee = Number(prompt("Conta de telefone"));
+    const rr = Number(prompt("Supermercado"));
+    const tt = Number(prompt("Informe o valor que recebe de remuneração mensal (salário)"));
 
+    const yy = qq + ww + ee + rr + tt;
+    const uu = tt - yy;
 
-    //Processamento
-
-    
-    //Saída
+    const ii = uu >= 0 ? alert(`Sobrou após o pagamento das conta ${uu}`) : alert(`Faltou para poder pagar todas as contas previstas ${uu}`);
     
 </script>
